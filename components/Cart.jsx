@@ -103,14 +103,13 @@ const Cart = () => {
                     <h3>Subtotal:</h3>
                     <h3>${totalPrice}</h3>
                   </div>
-                  <PaymentForm />
                   <div className='btn-container'>
-                    <Link href="/components/PaystackForm">
+                    <Link href="/product/payment">
                     <button 
                       className='btn' 
                       type='button' 
                     >
-                      Pay with Paypal
+                      Continue to Payment
                     </button>
                     </Link>   
                   </div>

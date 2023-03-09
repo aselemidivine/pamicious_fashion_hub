@@ -27,10 +27,10 @@ const PaymentForm = () => {
         </div>
 
         <div className='input-control'>
-            <label>Email</label>
+            <label>Amount</label>
             <input type="number" required name="amount" onChange={handleChange} />
         </div>
-        <button type='submit'>Submit</button>
+        <button type='submit'>PAY</button>
       </form>
     </div>
   )
